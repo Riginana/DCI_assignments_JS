@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="mx-auto w-75 mt-3">
+        <h3 class="text-center">Crypto-Rate</h3>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="btn btn-primary">Crypto-currency</div>
+            </div>
+            <select class="custom-select first-option">
+                <option selected>Choose...</option>
+                <option value="btc">BTC</option>
+                <option value="eth">ETH</option>
+                <option value="ada">ADA</option>
+                <option value="zil">ZIL</option>
+                <option value="cocos">COCOS</option>
+                <option value="chz">CHZ</option>
+                <option value="xrp">XRP</option>
+                <option value="eos">EOS</option>
+
+            </select>
+        </div>
+
+        <div class="input-group mb-3 ">
+            <input type="number" class="form-control first-input" placeholder="" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="btn btn-danger" type="button">Currency</div>
+            </div>
+            <select class="custom-select second-option">
+                <option selected>Choose...</option>
+                <option value="eur">EUR</option>
+                <option value="usd">USD</option>
+                <option value="gbp">GBP</option>
+                <option value="try">TRY</option>
+                <option value="rub">RUB</option>
+
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control second-input" placeholder="" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+        </div>
+        <button class="btn btn-primary convert" type="submit">Covert</button>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
